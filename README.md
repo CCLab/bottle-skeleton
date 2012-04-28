@@ -4,11 +4,11 @@ Files structure skeleton for web apps in bottle microframework
 
 Structure
 =========
-db            - SQLite files
-lib           - external libraries and application code
-static        - assets (js, css, img)
-static/js/lib - external js libraries (for development purpose)
-views         - templates go there
+  - db            - SQLite files
+  - lib           - external libraries and application code
+  - static        - assets (js, css, img)
+  - static/js/lib - external js libraries (for development purpose)
+  - views         - templates go there
 
 Makefile
 ========
