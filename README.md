@@ -18,10 +18,17 @@ Contains two targets:
 
 Dependencies
 ============
-pychecker
-node.js
-jslint
-make
+  - pychecker
+  - node.js
+  - jslint
+  - make
+
+TODO
+====
+  - add less.js
+  - add yui-compressor
+  - add unit tests skeleton
+  - add WSGI management
 
 License
 =======
