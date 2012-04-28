@@ -1,4 +1,4 @@
-LIB = ./lib/cc/*py
+LIB = ./app/*py
 APP = ./main.py
 CSS = ./static/css/*css
 JS  = ./static/js/*js

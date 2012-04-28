@@ -3,8 +3,8 @@
 
 import sys, os
 
-from lib.py.bottle import install, route, run, template, request
-from lib.py.bottle_sqlite import SQLitePlugin
+from app.lib.bottle import install, route, run, template, request
+from app.lib.bottle_sqlite import SQLitePlugin
 
 DEBUG = True
 
