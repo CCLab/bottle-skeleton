@@ -1,3 +1,8 @@
+.PHONY: default
+
+default: lint
+
+
 LIB = ./app/*py
 APP = ./main.py
 CSS = ./static/css/*css
