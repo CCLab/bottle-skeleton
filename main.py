@@ -3,7 +3,7 @@
 
 import sys, os
 
-from app.lib.bottle import install, route, run, template, request
+from app.lib.bottle import install, route, run, template, request, static_file
 from app.lib.bottle_sqlite import SQLitePlugin
 
 DEBUG = True
@@ -13,6 +13,12 @@ DEBUG = True
 @route('/')
 def index():
     return template( 'index', {'title': 'CCLab scaffold'} )
+
+
+
+@route('/static/<path:path>')
+def serve_files( path ):
+    return static_file( path , root='./static/' )
 
 
 # -- run the app
